@@ -1,8 +1,8 @@
-from battery_checker.tray import TrayApp
+from battery_checker.taskbar_widget import TaskbarWidget
 
 
 def main():
-    TrayApp().run()
+    TaskbarWidget().run()
 
 
 if __name__ == "__main__":
